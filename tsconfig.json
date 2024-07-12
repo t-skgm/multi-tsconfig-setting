@@ -16,7 +16,7 @@
     "useUnknownInCatchVariables": false
   },
   "include": ["./src/**/*"],
-  "exclude": ["./**/*.test.ts"],
+  "exclude": ["./**/*.test.ts", "./dist/**/*"],
   "references": [
     {
       "path": "tsconfig.test.json"
