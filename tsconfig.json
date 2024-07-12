@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2018",
+    "lib": ["esnext"],
+    "outDir": "./dist/",
+    "strict": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "noUnusedParameters": false,
+    "noUncheckedIndexedAccess": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "useUnknownInCatchVariables": false
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["./**/*.test.ts"],
+  "references": [
+    {
+      "path": "tsconfig.test.json"
+    }
+  ]
+}
