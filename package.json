@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "tsx src/main.ts",
     "build": "tsc --build tsconfig.build.json",
-    "test": "jest"
+    "test": "jest",
+    "typecheck": "tsc -p tsconfig.test.json --noEmit"
   },
   "devDependencies": {
     "@types/jest": "29.5.12",
